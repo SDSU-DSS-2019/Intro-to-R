@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "---\n  title: Installing Packages!\n---\n\n\n\n<div id=\"installing-packages\" class=\"section level1\">\n<h1>Installing Packages</h1>\n<p>In order to use the tidyverse and any other package that is not included in Base R, we must learn to install packages. These packages that we install contain unique functions, tools, code, data and even examples.</p>\n<p>The easiest way to install packages is to use the command:</p>\n<pre><code>install.packages()</code></pre>\n<p>For example, go ahead and install the <code>tidyverse</code> package on your own:</p>\n<pre><code>install.packages(&quot;tidyverse&quot;)</code></pre>\n<div id=\"calling-installed-packages\" class=\"section level2\">\n<h2>Calling Installed Packages</h2>\n<p>Once we have installed packages, we must call them into R in order to use them. This must be done each time you start a new document or R session. We call packages with the following command:</p>\n<pre class=\"r\"><code>library(tidyverse)</code></pre>\n<pre><code>## Loading tidyverse: ggplot2\n## Loading tidyverse: tibble\n## Loading tidyverse: tidyr\n## Loading tidyverse: readr\n## Loading tidyverse: purrr\n## Loading tidyverse: dplyr</code></pre>\n<pre><code>## Conflicts with tidy packages ----------------------------------------------</code></pre>\n<pre><code>## filter(): dplyr, stats\n## lag():    dplyr, stats</code></pre>\n<p>When we call this package we can see that it has loaded into R. The first lines explain what has been loaded. Then what follows are conflicts.</p>\n<div id=\"what-are-conflicts\" class=\"section level3\">\n<h3>What are Conflicts?</h3>\n<p>Conflicts happen when packages have functions with the same names as other functions. This is OK when you prefer the function in a package like <code>tidyverse</code> rather than some other function. Basically the last package loaded in will mask over other functions if they have common names.</p>\n<p>We can see a further example of this below:</p>\n<pre class=\"r\"><code>library(MASS)</code></pre>\n<pre><code>## \n## Attaching package: 'MASS'</code></pre>\n<pre><code>## The following object is masked from 'package:dplyr':\n## \n##     select</code></pre>\n</div>\n</div>\n</div>\n\n\n\n\n</div>\n\n<script>\n\n// add bootstrap table styles to pandoc tables\nfunction bootstrapStylePandocTables() {\n  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');\n}\n$(document).ready(function () {\n  bootstrapStylePandocTables();\n});\n\n\n</script>\n\n<!-- dynamically load mathjax for compatibility with self-contained -->\n<script>\n  (function () {\n    var script = document.createElement(\"script\");\n    script.type = \"text/javascript\";\n    script.src  = \"https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML\";\n    document.getElementsByTagName(\"head\")[0].appendChild(script);\n  })();\n</script>",
+    "created" : 1497289034114.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2801842792",
+    "id" : "FBF528C5",
+    "lastKnownWriteTime" : 1497289077,
+    "last_content_update" : 1497289077756,
+    "path" : "C:/Users/adam_/Dropbox (Personal)/Brown/NAMBARI/Intro-to-R/modules/Packages Needed for NAMBARI/_posts/2001-01-01-packages-install.md",
+    "project_path" : "modules/Packages Needed for NAMBARI/_posts/2001-01-01-packages-install.md",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "markdown"
+}

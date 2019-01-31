@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "---\n  title: Packages Needed for NAMBARI R Course!\n---\n\n\n## Packages\n\nInstall these packages using the following R commands:\n\n\n```\ninstall.packages(\"datasets\")\ninstall.packages(\"tidyverse\")\ninstall.packages(\"dplyr\")\ninstall.packages(\"broom\")\ninstall.packages(\"gapminder\")\ninstall.packages(\"magrittr\")\ninstall.packages(\"nycflights13\")\ninstall.packages(\"ggplot2\")\ninstall.packages(\"mgcv\")\ninstall.packages(\"directlabels\")\ninstall.packages(\"gridExtra\")\ninstall.packages(\"MASS\")\ninstall.packages(\"car\")\ninstall.packages(\"rmarkdown\")\ninstall.packages(\"knitr\")\ninstall.packages(\"kable\")\ninstall.packages(\"gvlma\")\ninstall.packages(\"ggrepel\")\ninstall.packages(\"grid\")\ninstall.packages(\"survival\")\ninstall.packages(\"survminer\")\ninstall.packages(\"GGally\")\ninstall.packages(\"modelr\")\ninstall.packages(\"purrr\")\n```\n\n",
+    "created" : 1497289088410.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "308812305",
+    "id" : "36AC77B0",
+    "lastKnownWriteTime" : 1497289188,
+    "last_content_update" : 1497289188163,
+    "path" : "C:/Users/adam_/Dropbox (Personal)/Brown/NAMBARI/Intro-to-R/modules/Packages Needed for NAMBARI/_posts/2001-01-02-packages.md",
+    "project_path" : "modules/Packages Needed for NAMBARI/_posts/2001-01-02-packages.md",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "markdown"
+}

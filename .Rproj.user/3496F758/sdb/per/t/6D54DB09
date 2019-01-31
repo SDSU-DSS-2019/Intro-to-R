@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\nlayout: index\npublished: true\n---\n\n# Have you ever wanted to know how to use R? \n\nMost likley if you are here on this page you have! One of the biggest struggles with starting to use R is that it seems like a black box and you are not sure where to start!\n\n\n\nThis is where thise course comes in. We will walk through the basics of R and give you the ability to go from not having R on your computer to doing analysis with R in a few days!\n\n\n\n# How will this course work?\n\n\n\n\nThis course is designed to cover the very basics of using and working with R. It will be taught with the following sections:\n\n- **Getting Started in R and RStudio**\n- **Installing Packages Needed for [NAMBARI Course](https://nambari.github.io/)**\n\n\n\nThe course will be a self-paced walkthrough of using R in Statistics. Currently all of the materials are in a reading format. Each of these will have an accompying video in time!\n\t\t\t\n## I'm in--how do I get started?\nHead over to [About Course]({{site.baseurl}}/modules/about%20course/about/) to get started!\n\n\n",
+    "created" : 1496781827098.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2585095156",
+    "id" : "6D54DB09",
+    "lastKnownWriteTime" : 1495821929,
+    "last_content_update" : 1495821929,
+    "path" : "C:/Users/adam_/Dropbox (Personal)/Brown/NAMBARI/Intro-to-R/index.markdown",
+    "project_path" : "index.markdown",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "text"
+}
